@@ -45,7 +45,7 @@ for items in templates:
         print ('item =', item)
         if item in listOfItems:
             print('Тип', type(items[item]))
-            print('lOI=', listOfItems[item])
+            print('listOfItems=', listOfItems[item])
             print ('значение=', items[item])
 
 
